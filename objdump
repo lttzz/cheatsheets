@@ -1,0 +1,2 @@
+# Display source code intermixed with disassembly, if possible.  Implies -d.
+objdump -S a.out

@@ -1,0 +1,4 @@
+# Add modules to Linux Kernel
+sudo modprobe vmnet
+sudo vmware-networks --status
+sudo vmware-networks --start

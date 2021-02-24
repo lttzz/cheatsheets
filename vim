@@ -1,3 +1,6 @@
+# Don't load .vimrc
+vim -u NONE -N
+
 # File management
 
 :e              reload file
@@ -78,3 +81,6 @@ ctrl-w=          - make all equal size
 :only            - keep only this window open
 :ls              - show current buffers
 :b 2             - open buffer #2 in this window
+
+# file path completion
+<C-x><C-f>

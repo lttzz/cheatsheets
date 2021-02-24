@@ -3,3 +3,6 @@ man -t bash | ps2pdf - bash.pdf
 
 # To view the ascii chart:
 man 7 ascii
+
+# Search the short manual page descriptions for keywords  and display any matches.
+man -k printf

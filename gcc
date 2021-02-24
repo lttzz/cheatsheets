@@ -19,3 +19,7 @@ gcc -isystem /usr/include/myPersonnal/lib/
 
 # To build a GUI for windows (Mingw) (Will disable the term/console):
 gcc -mwindows
+
+# Enable Listings
+# as doc: https://sourceware.org/binutils/docs-2.35/as/index.html
+gcc -c -g -Og -Wa,-adlhn source.c > source.s
